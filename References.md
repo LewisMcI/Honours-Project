@@ -7,6 +7,14 @@
 
 Uses a new efficient approximate voxel cone tracing with less precomputation using sparse voxel octrees.
 
+## Real-Time Ray Traced Voxel Global Illumination#
+
+Looks at hybrid rendering techniques to bridge the gap between common rasterization techniques and ray tracing for real time.
+
+# Dynamic Update of Sparse Voxel Octree Based on Morton Code
+
+Saw a gap within real time ray-tracing techniques for SVOs of only reasonably allowing static scenes, and suggests the usage of Mortons Code to make tree traversal easier.
+
 ## Voxel Based Pathfinding with Jumping for Games
 
 Showcases a voxel model for pathfinding allowing continuous navmesh in UE4. It is possible already in UE4 with NavLinkProxys however these links need to be defined by hand.
